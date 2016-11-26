@@ -265,7 +265,6 @@ a:hover {
   background-repeat: no-repeat;
   height: 310px;
   width: 334px;
-
   margin: 0 auto;
 }
 
@@ -402,5 +401,13 @@ a:hover {
   }
   .b-header-top_btn {
     padding-top: 5px;
+  }
+  .b-image__pic {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .b-image__pic__link {
+    display: none;
   }
 }
