@@ -332,6 +332,7 @@ a:hover {
 .content__description {
   font-size: 22px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .b-work__info {
@@ -359,6 +360,7 @@ a:hover {
 .reviews__info__text {
   font-size: 20px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .reviews__info__job {
@@ -394,6 +396,43 @@ a:hover {
   padding: 5px;
 }
 
+.b-main-content__title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+.b-main-content_image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 10px;
+}
+.b-main-content_btn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.b-main-content__video {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.image-right {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.image-right__link {
+  display: block;
+  height: 400px;
+  width: 100%;
+}
+.video-left {
+  text-align: center;
+}
+.b-cont__number__link{
+  color: black !important;
+}
 @media screen and (max-width: 768px) {
   .b-cont__number {
     font-size: 18px;
@@ -409,5 +448,8 @@ a:hover {
   }
   .b-image__pic__link {
     display: none;
+  }
+  .b-main-content_image {
+    background-size: contain;
   }
 }
